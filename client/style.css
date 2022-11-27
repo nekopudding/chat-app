@@ -1,0 +1,57 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.message {
+  color: darkgreen;
+  background-color: lightblue;
+}
+.message-list {
+  overflow-y: scroll;
+  height: 150px;
+}
+.my-message {
+  text-align: right;
+  color:darkblue;
+  background-color: lightgreen;
+}
+
+#app-menu > li {
+  color: black;
+  background-color: antiquewhite;
+}
+#app-menu > li:hover {
+  color: darkred;
+  background-color: aquamarine;
+}
+
+.room-list > li {
+  background: white;
+  color: black;
+}
+.room-list > li:hover {
+  background: black;
+  color: white;
+}
+
+
+
+@media (min-width: 1024px) {
+  #app-view {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  #app-view {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #app-view {
+    width: 100% !important;
+  }
+}
+
